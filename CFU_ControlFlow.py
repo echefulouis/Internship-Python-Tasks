@@ -14,8 +14,7 @@ for i in num_list:
     if len(odd_num)<5 and i%2!=0:
         odd_num.append(i)
 
-print("the sum of first 5 odd number is ",sum(odd_num))
-# Test
-print('Expected Result: ', 85+85+719+17+87)
+print("The sum of first 5 odd numbers is ",sum(odd_num))
+
 
 

@@ -28,8 +28,7 @@ for num in check_prime:
         # check for factors
         for i in range(2, num):
             if (num % i) == 0:
-                print(num, "is not a prime number")
-                print(i, 'is a factor of ',num)
+                print(num, "is NOT a prime number, because",i, 'is a factor of ',num)
                 break
         else:
             print(num, "is a prime number")
